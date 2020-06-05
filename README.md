@@ -1,11 +1,12 @@
-# Repo Template
+# Learn Git
 
-> A Basic GitHub Repository Template
+> Resources related to my learning of `git`.
 
 ---
 
-## Links & Resources
+## Links & Resouces
 
-* [`release-it`](https://github.com/release-it/release-it)
+* [`git-rebase-i-playground`](https://github.com/dmuth/git-rebase-i-playground) A playground/lab to test different use cases of `git rebase -i`.
+* [`learnGitBranching`](https://github.com/pcottle/learnGitBranching) An interactive git visualization to challenge and educate!
 
 ---

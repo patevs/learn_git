@@ -1,6 +1,6 @@
 # Learn Git
 
-> Resources related to my learning of `git`.
+> Resources related to my learning of the [`Git`](https://git-scm.com/) version control system.
 
 ---
 

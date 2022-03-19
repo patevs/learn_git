@@ -10,12 +10,13 @@
   },
   "scripts": {
     "release": "np",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "commitlint-config-gitmoji": "^2.2.5",
-    "husky": "^4.3.8",
+    "husky": "^7.0.4",
     "np": "^7.6.0"
   },
   "commitlint": {
@@ -23,8 +24,14 @@
       "gitmoji"
     ],
     "rules": {
-      "subject-empty": [0, "never"],
-      "type-empty": [0, "never"]
+      "subject-empty": [
+        0,
+        "never"
+      ],
+      "type-empty": [
+        0,
+        "never"
+      ]
     }
   },
   "husky": {

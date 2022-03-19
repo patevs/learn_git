@@ -9,9 +9,9 @@
     "url": "git+https://github.com/patevs/learn_git.git"
   },
   "scripts": {
-    "release": "np",
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "prepare": "husky install"
+    "release": "np"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
